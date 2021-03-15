@@ -9,7 +9,7 @@ body {
   color: #6a6f81;
   background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
   background-color: #19a2ae;
-  background-position: top -500px left -200px, bottom -500px right -200px;
+  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
   background-repeat: no-repeat;
   min-height: 100vh;
   display: grid;
@@ -23,8 +23,9 @@ h2 {
   border-radius: 1rem;
   overflow: hidden;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  text-align: center;
   width:min(350px,90%);
-  text-align: center; }
+}
   .card__cover {
     min-height: 140px;
     background: url(../../images/bg-pattern-card.svg); }
