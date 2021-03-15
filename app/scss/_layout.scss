@@ -1,0 +1,66 @@
+.card{
+    width:min(350px,90%);
+    background:$white;
+    border-radius:1rem;
+    overflow: hidden;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    text-align: center;
+
+    &__cover{
+        min-height:140px;
+        background:url(../../images/bg-pattern-card.svg);
+    }
+
+    &__user{
+
+        .user__avatar{
+            border:5px solid $white;
+            border-radius:50%;
+            margin-top:-50px;
+        }
+
+        .user__name{
+            font-size:$font-lg;
+            color:$vdarkcyan;
+        }
+
+        .user__info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:25px;
+        }
+        .user__age{
+            margin-left:10px;
+        }
+        .user__city{
+            margin-bottom:1.75rem;
+            font-size:$font-sm;
+        }
+    }
+
+    &__stats{
+        display: flex;
+        justify-content: space-around;
+        border-top: 1px solid #e8e8e8;
+        padding:30px 50px;
+
+        .stat{
+            text-align: center;
+            flex:1;
+
+            &__data{
+                font-size: $font-lg;
+                font-weight: 700;
+                color:$vdarkcyan;
+                margin-bottom:10px;
+                display: block;
+            }
+            &__title{
+                letter-spacing: 2px;
+                font-size:0.625rem;
+                margin:0;
+            }
+        }
+    }
+}

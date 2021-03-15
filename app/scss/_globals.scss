@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: $font-stack;
+    color:$dkgrayblue;
+    background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
+    background-color: $dkcyan;
+    background-position:top -500px left -200px, bottom -500px right -200px;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+h2{
+    margin:0;
+}
